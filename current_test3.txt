@@ -1,0 +1,7 @@
+foo
+goo
+hoo
+ioo
+joo
+koo
+loo
