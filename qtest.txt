@@ -1,0 +1,10 @@
+#!/bin/bash
+mkdir -p /home/ubuntu/new
+for i in $(cat current_test3.txt)
+do
+cp "$i" /home/ubuntu/new
+done
+cd /home/ubuntu/new
+rename 's/^/ACST_s1_2018_/' *
+rename 's/\.*$/.txt/' *
+cd /home/ubuntu
